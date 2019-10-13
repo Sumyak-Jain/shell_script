@@ -1,0 +1,4 @@
+#/bin/bash
+echo "enter a value"
+read d
+echo "obase=16; ibase=8; $d" | bc
