@@ -25,7 +25,7 @@ printf "\n"
          echo " it is a Odd number"
      fi
  fi
-echo " enter a fruit name  to know its rate : apple,banana,kiwi"
+echo " enter a fruit name  to know its rate : apple,banana,kiwi" #switch case
 read FRUIT
 case "$FRUIT" in
    "apple") echo "Apple is Rs 120/kg."
