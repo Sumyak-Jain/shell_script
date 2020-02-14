@@ -6,7 +6,7 @@ read name #take input of the name
 echo "hello, $name"
 read -p "Enter an integer: " int1    
 echo " printing all numbers from $int1 till greater then 0"
-for((count=$int1;count>0;count--))
+for((count=$int1;count>0;count--)) #for loop
 do
 echo  "$count"
 done
