@@ -11,7 +11,7 @@ do
 echo  "$count"
 done
 printf "\n"
- if [ $int1 -eq 0 ]
+ if [ $int1 -eq 0 ] # if-else conditions
  then
      echo "Zero"
  elif [ $int1 -lt 0 ]
