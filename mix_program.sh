@@ -1,3 +1,5 @@
+#a sell script containg for loop ,if - else,else-if and switch case
+
 #/bin/bash
 echo "enter your name?"
 read name
